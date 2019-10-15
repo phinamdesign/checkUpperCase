@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check 1 chuỗi xem viết hoa hay thường</title>
+</head>
+<body>
+<script>
+    let str = prompt("Nhập vào chuỗi");
+    let regex = /^[A-Z]/;
+    if (regex.test(str)){
+        alert("Đây là chuỗi ký tự in hoa");
+    }else {
+        alert("Đây không phải chuỗi in hoa");
+    }
+</script>
+</body>
+</html>
